@@ -11,7 +11,6 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background:rgb(85, 67, 35);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +22,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    opacity: 1;
 }
+
 .banner .content{
     position: relative;
     max-width: 750px;
@@ -35,7 +35,7 @@
 }
 .banner .content h2{
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
 }
 .banner .content p{
     font-size: 18px;
@@ -62,7 +62,7 @@
 }
 #menu{
 	width: 35px;
-	height: 30px;
+	height: 25px;
 	margin: 30px 0 20px 20px;
 	cursor: pointer;
 }
@@ -75,7 +75,7 @@
 	transition: 0.3s ease;
 }
 #bar1{
-	transform: translateY(-4px);
+	transform: translateY(-5px);
 }
 #bar3{
 	transform: translateY(4px);
@@ -145,12 +145,35 @@
     padding: 100px;
     width:50%;
 }
+
+.companies{
+    position: relative;
+    width:100%;
+    display: flex;
+}
+.companies .contentBx{
+    background: #162c3b;
+    padding: 100px;
+    width:50%;
+}
 .heading{
     color:#fff;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.headingCompany{
+    color:#fff;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px; 
+    top: -20px;
+}
+.client .heading{
+    color:#111;
+    font-size:40px;
 }
 .text{
     color:#fff;
@@ -163,6 +186,28 @@
     width: 50%;
     background-size: cover;
     background-position: center;
+}
+.companies .imgBxA{
+    background: url(../images/workAlstom1.png);
+    width: 50%;
+    background-size: cover;
+    background-position: center;  
+}
+.companies .imgBxS{
+    background: url(../images/serco6.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;  
+}
+.companies .imgBxK{
+    background: url(../images/keolisWork.png);
+    width: 60%;
+    background-size: cover;
+    background-position: center;  
+}
+.contactCompany .imgBx{
+    background-position: left;
+    max-width: 50%;
 }
 .services{
     background: #12222d;
@@ -181,13 +226,18 @@
     position: relative;
     background: #fff;
     width: 350px;
-    height: 400px;
+    height:  250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .services .container .serviceBx img{
-    max-width: 100px;
+    max-width: 100%;
+}
+.services .container .serviceBx img:hover{
+    transition: transform 0.5s;
+    transform: scale(0.95);
+    
 }
 .services .container .serviceBx h2{
     font-weight: 500;
@@ -213,9 +263,14 @@
 .technology .imgBx img{
     max-width: 100%;
 }
+
 .client{
-    background: #162c3b;
-    padding: 100px;
+    color:#111;
+    font-size: 22px;
+    font-weight:300;
+    letter-spacing: 1px;
+    background: rgb(200,200,200);
+    padding: 80px;
     text-align: center;
 }
 .client .imgBx{
@@ -228,7 +283,7 @@
 .client .imgBx img{
     max-width: 200px;
     margin: 20px;
-    opacity: 0.25;
+    opacity: 0.75;
     cursor: pointer;
 }
 .client .imgBx img:hover{
@@ -269,6 +324,11 @@
     padding: 100px;
     background: #162c3b;
     text-align: center;
+}
+.contactCompany{
+    background: #162c3b;
+    text-align: center;
+    height:25%;
 }
 .imgBx2{
     background: url(../images/contact2.jpg);
@@ -344,6 +404,12 @@
     filter: invert(1);
     max-width: 20px;
 }
+#map {
+    height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
 @media (max-width: 991px){
     .banner header{
         padding: 20px 50px;
@@ -361,6 +427,15 @@
         flex-direction: column;
     }
     .about .contentBx,.about .imgBx{
+        width: 100%;
+        padding: 50px;
+        min-height: 400px;
+        text-align: center;
+    }
+    .companies{
+        flex-direction: column;
+    }
+    .companies .contentBx,.companies .imgBx{
         width: 100%;
         padding: 50px;
         min-height: 400px;
