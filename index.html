@@ -1,165 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <title>Colourways:Technical Services Limited</title>
-        <link rel="stylesheet" href="static/css/style.css">
-        <link rel="icon" href="static/images/logo1.png" type="image/png">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
-        <script src="static/js/scrollit.js" type="text/javascript"></script>
-        <script>$(function() { $.scrollIt(); });</script>
-    </head>
-    <body>
-        <div class="banner">
-            <header>
-                <div class="logo"><img style="opacity: 100%;
-                                       width: 85%;
-                                       height: 85%;
-                                       position: relative;
-                                       top: -45px;
-                                       left: -2vw;" src="static/images/mainLogo.png"></div>
-                <div id="menu-bar">
-                    <div id="menu" onclick="onClickMenu()">
-                        <div id="bar1" class="bar"></div>
-                        <div id="bar2" class="bar"></div>
-                        <div id="bar3" class="bar"></div>
-                    </div>
-                    <ul class="nav" id="nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a data-scroll-nav="0">About Us</a></li>
-                        <li><a data-scroll-nav="1">Our Ongoing Projects</a></li>
-                        <li><a data-scroll-nav="2">Our Clients</a></li>
-                        <li><a data-scroll-nav="4">Safety Policy</a>
-                        <li><a data-scroll-nav="4">Contact Us</a>
-                    </ul>
-                </div>
-                <div class="menu-bg" id="menu-bg"></div>
-                <script src="script.js"></script>
-            </header>
-            <img src="static/images/metro_hd (2).jpg">
-            <div class="content">
-                <h2>Success by Design</h2>
-                <p>COLOURWAYS is a technical service provider formed by a group of well experienced
-                    technical personnel of over 25 years of experience and expertise in the refinishing industry of the United Arab
-                    Emirates</p>
-            </div>
-        </div>
 
-        <section data-scroll-index='0' class="about">
-            <div class="contentBx">
-                <h2 class="heading">About Us</h2>
-                <p class="text">Our mission is to be the leading technical services company
-                    focused on customer satisfaction. We seek to produce
-                    increased financial rewards and provide opportunities for
-                    the growth and enrichment to employees, striving for
-                    honesty, reliability and Integrity within the company.
-                <br><br>
-                    We are committed to achieving business and financial
-                    success while leaving a positive impact on the society. </p>
-            </div>
-            <div class="imgBx">
-            </div>
-        </section>
-        </div>
-        </a>
-        <section data-scroll-index='1' class="services">
-            <h2 class="heading">Our Ongoing Projects</h2>
-            <p class="text">COLOURWAYS is awarded the pre delivery paint rectifications by Alstom Transport for a new batch of Dubai metro trains.</p>
-            <p class="text">COLOURWAYS is awarded the contract for paint jobs by SERCO for the Dubai metro KINKI SHARYO trains.</p>
-            <p class="text">COLOURWAYS is awarded the contract for paint jobs by KEOLIS MHI for the Dubai metro KINKI SHARYO trains.</p>p>
-            </p>
-            
-        <div class="container">
-            <div class="serviceBx">
-                <div>
-                    <a href="alstom.html">
-                    <img src="static/images/alstomTrain.png">
-                    </a>
-                    <h2>Colourways and Alstom</h2>
-                </div>
-            </div>
-            <div class="serviceBx">
-            <div>
-                <a href="serco.html">
-                <img src="static/images/sercoTrain.png">
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!--====== Title ======-->
+  <title>ColourWays | Success by Design</title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
+
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!--====== Line Icons css ======-->
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+
+  <!--====== Tiny Slider css ======-->
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+
+  <!--====== gLightBox css ======-->
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!--====== NAVBAR NINE PART START ======-->
+
+  <section class="navbar-area navbar-nine">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/logo1-white.png" style="width: 50%;" alt="Logo" />
             </a>
-                <h2>Colourways and Serco</h2>
-            </div>
-            </div>
-            <div class="serviceBx">
-            <div>
-                <a href="keolis.html">
-                    <img src="static/images/KeolisTrain.png">
-                </a>
-                <h2>Colourways and Keolis</h2>
-            </div>
-            </div>
-        </div>    
-        </section>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
+              aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+            </button>
 
-        <!--<section class="technology">
-            <div class="contentBx">
-                <h2 class="heading">We use cutting edge technology</h2>
-                <p class="text">placeholder text for where technical specs should come
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarNine">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="page-scroll active" href="#hero-area">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#services">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="navbar-btn d-none d-lg-inline-block">
+              <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"></i></a>
+            </div>
+          </nav>
+          <!-- navbar -->
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </section>
+
+  <!--====== NAVBAR NINE PART ENDS ======-->
+
+  <!--====== SIDEBAR PART START ======-->
+
+  <div class="sidebar-left">
+    <div class="sidebar-close">
+      <a class="close" href="#close"><i class="lni lni-close"></i></a>
+    </div>
+    <div class="sidebar-content">
+      <div class="sidebar-logo">
+        <a href="index.html"><img src="assets/images/logo1.png" alt="Logo" /></a>
+      </div>
+      <p class="text">Success by Design</p>
+      <!-- logo -->
+      <div class="sidebar-menu">
+        <h5 class="menu-title">Quick Links</h5>
+        <ul>
+          <li><a href="#about-area">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- menu -->
+      <div class="sidebar-social align-items-center justify-content-center">
+        <h5 class="social-title">Follow Us On</h5>
+        <ul>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar social -->
+    </div>
+    <!-- content -->
+  </div>
+  <div class="overlay-left"></div>
+
+  <!--====== SIDEBAR PART ENDS ======-->
+
+  <!-- Start header Area -->
+  <section id="hero-area" class="header-area header-eight">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="header-content">
+            <h1>Success by Design</h1>
+            <p>
+              COLOURWAYS is a technical service provider formed by a group of well experienced technical personnel of over 25 years of experience and expertise in the refinishing industry of the United Arab Emirates
+
+
+            </p>
+            <div class="button">
+              <a href="#contact" class="btn primary-btn">Get Started</a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="header-image">
+            <img src="assets/images/header/hero_image_2.jpeg" alt="#" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End header Area -->
+
+  <!--====== ABOUT FIVE PART START ======-->
+
+  <section class="about-area about-five">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <div class="about-image-five">
+            <svg class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="1.66654" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
+            </svg>
+            <img src="assets/images/workAlstom1.png" alt="about" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="about-five-content">
+            <h6 class="small-title text-lg">OUR STORY</h6>
+            <h2 class="main-title fw-bold">Our team comes with the experience and knowledge</h2>
+            <div class="about-five-tab">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
+                  <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
+                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">our Mission</button>
+                  <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">our History</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                  <p>COLOURWAYS is a technical service provider formed by a group of well experienced technical team of over 25
+                years of experience and expertise in the refinishing industry of the United Arab Emirates .</p>
+                </div>
+                <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
+                  <p>Our mission is to be the leading technical services company focused on customer satisfaction. </p>
+                    <p>We seek to produce increased financial rewards and provide opportunities for the growth and enrichment to employees,
+                    striving for honesty, reliability and Integrity within the company.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                  <p>Established in 2019, Colourways has been providing excellent service to all its customers for the past 4 years.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+  </section>
+
+  <!--====== ABOUT FIVE PART ENDS ======-->
+
+  <!-- ===== service-area start ===== -->
+  <section id="services" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h6>Projects</h6>
+              <h2 class="fw-bold">Our Ongoing Projects</h2>
+              <p> Currently, COLOURWAYS is awarded the pre delivery paint rectifications by </p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <i class="lni lni-capsule"></i>
+            </div>
+            <div class="service-content">
+              <h4>Alstom Transport</h4>
+              <p>
+                COLOURWAYS is awarded the pre delivery paint rectifications by Alstom Transport for a new batch of Dubai metro trains.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <i class="lni lni-bootstrap"></i>
+            </div>
+            <div class="service-content">
+              <h4>SERCO</h4>
+              <p>
+                COLOURWAYS is awarded the contract for paint jobs by SERCO for the Dubai metro KINKI SHARYO trains.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <i class="lni lni-shortcode"></i>
+            </div>
+            <div class="service-content">
+              <h4>KEOLIS MHI</h4>
+              <p>
+                COLOURWAYS is awarded the contract for paint jobs by KEOLIS MHI for the Dubai metro KINKI SHARYO trains.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!-- ===== service-area end ===== -->
+
+
+  <!-- Start Cta Area -->
+  <section id="call-action" class="call-action">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
+          <div class="inner-content">
+            <h2>We love to make perfect <br />solutions for your business</h2>
+            <p>
+            </p>
+            <div class="light-rounded-buttons">
+              <a href="#contact" class="btn primary-btn-outline">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Cta Area -->
+
+  <!-- Start Brand Area -->
+  <div id="clients" class="brand-area section">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h6>Meet our Clients</h6>
+              <h2 class="fw-bold">Our Clients</h2>
+              <p>
+                These are the clients we currently work with.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-12">
+          <div class="clients-logos">
+            <div class="single-image">
+              <img src="assets/images/client-logo/rta.svg" alt="Brand Logo Images" />
+            </div>
+            <div class="single-image">
+              <img src="assets/images/client-logo/serco.svg" style="width: 100%;" alt="Brand Logo Images" />
+            </div>
+            <div class="single-image">
+              <img src="assets/images/client-logo/alstom.svg" style="width: 100%;" alt="Brand Logo Images" />
+            </div>
+            <div class="single-image" >
+              <img src="assets/images/client-logo/dellner.svg" style="width: 100%;" alt="Brand Logo Images" />
+            </div>
+            <div class="single-image">
+              <img src="assets/images/client-logo/keolis.svg" style="width: 100%;" alt="Brand Logo Images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Brand Area -->
+
+  <!-- ========================= contact-section start ========================= -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="contact-item-wrapper">
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-phone"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Contact</h4>
+                    <p>+97142529396</p>
+                    <p>info@colour.ws</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-map-marker"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Address</h4>
+                    <p>201-06 OPEN HUB BUSINESS CENTER</p>
+                    <p>234432,   Dubai United Arab Emirates</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-alarm-clock"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Schedule</h4>
+                    <p>Mon - Fri</p>
+                    <p>Office time: 10 AM - 5:30 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8">
+          <div class="contact-form-wrapper">
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 mx-auto">
+                <div class="section-title text-center">
+                  <span> Get in Touch </span>
+                  <h2>
+                    Ready to Get Started
+                  </h2>
+                  <p>
+                    Send us a request for a quote, and we'll get right back to you!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <form action="#" class="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" name="name" id="name" placeholder="Name" required />
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" id="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" name="phone" id="phone" placeholder="Phone" required />
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="subject" id="email" placeholder="Subject" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <textarea name="message" id="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="button text-center rounded-buttons">
+                    <button type="submit" class="btn primary-btn rounded-full">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= contact-section end ========================= -->
+
+  <!-- ========================= map-section end ========================= -->
+  <section class="map-section map-style-9">
+    <div class="map-container">
+      <object style="border:0; height: 500px; width: 100%;"
+        data=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14433.623008300649!2d55.330330477709964!3d25.2569326892397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ae321e0a633ea42!2sOpen%20Hub%20Business%20Center!5e0!3m2!1sen!2snl!4v1655458211455!5m2!1sen!2snl"></object>
+    </div>
+    </div>
+  </section>
+  <!-- ========================= map-section end ========================= -->
+
+  <!-- Start Footer Area -->
+  <footer class="footer-area footer-eleven">
+    <!-- Start Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-about">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="assets/images/logo1.png" alt="#" class="img-fluid" />
+                  </a>
+                </div>
+                <p>
+                Success By Design
                 </p>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-12">
 
             </div>
-            <div class="imgBx">
-                <img src="static/images/sustain.png">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget newsletter">
+                <h5>Subscribe</h5>
+                <p>Subscribe to our newsletter for the latest updates</p>
+                <form action="#" method="get" target="_blank" class="newsletter-form">
+                  <input name="EMAIL" placeholder="Email address" required="required" type="email" />
+                  <div class="button">
+                    <button class="sub-btn">
+                      <i class="lni lni-envelope"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Single Widget -->
             </div>
-        </section>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Footer Top -->
+  </footer>
+  <!--/ End Footer Area -->
 
-        <section data-scroll-index='2' class="client">
-            <h2 class="heading">Our Clients</h2>
-            <p class="client">Currently Colourways is working largely with the following companies</p>
-            <div class="imgBx"> 
-                <img src="static/images/RTA%20logo.png">
-                <img src="static/images/dell.png">
-                <img src="static/images/Serco_logo.png">
-                <img src="static/images/keolis.png">
-                <img src="static/images/alstom.png">
-            </div>    
-        </section>
+	<div class="made-in-ayroui mt-4">
+		<a href="https://ayroui.com" target="_blank" rel="nofollow">
+		  <img style="width:220px" src="assets/images/ayroui.svg">
+		</a>
+	</div>
 
-        <section style="background: #3f8ffc;;" data-scroll-index='3' class="contact">
-            <h2 class="heading">Safety Policy</h2><br><br>
+  <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a>
 
+  <!--====== js ======-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
 
-            <p class="text">It is our utmost priority to make our customers and employees
-                safe and to guard the environment and workplace against
-                unsafe materials and actions. COLOURWAYS recognizes its
-                responsibility in providing an integrated approach to health,
-                safety and environmental management in the plant, offices, on
-                site and at client's locations where it provide its expertise.</p>
+  <script>
 
-        </section>
+    //===== close navbar-collapse when a  clicked
+    let navbarTogglerNine = document.querySelector(
+      ".navbar-nine .navbar-toggler"
+    );
+    navbarTogglerNine.addEventListener("click", function () {
+      navbarTogglerNine.classList.toggle("active");
+    });
 
-        <section style="background: #12222d;" data-scroll-index='4' class="contact">
-            <h2 class="heading">Contact Us</h2>
-            <p class="text">Contact us to get a quote on a service you'd like, or if you'd like to know more about what we offer.</p><br><br>
+    // ==== left sidebar toggle
+    let sidebarLeft = document.querySelector(".sidebar-left");
+    let overlayLeft = document.querySelector(".overlay-left");
+    let sidebarClose = document.querySelector(".sidebar-close .close");
 
-            <p class="text">Address: 201-06 OPEN HUB BUSINESS CENTER
-                P.O.Box : 234432
-                Dubai
-                United Arab Emirates</p>
-<p class="text"><br>
-Telephone Number : +971 4 252 9396</p>
-<p class = "text">Email: info@colour.ws Web: www.colour.ws</p>
-<br>
-<br>
-<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14433.623008300649!2d55.330330477709964!3d25.2569326892397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ae321e0a633ea42!2sOpen%20Hub%20Business%20Center!5e0!3m2!1sen!2snl!4v1655458211455!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-</p>>
-        </section>
+    overlayLeft.addEventListener("click", function () {
+      sidebarLeft.classList.toggle("open");
+      overlayLeft.classList.toggle("open");
+    });
+    sidebarClose.addEventListener("click", function () {
+      sidebarLeft.classList.remove("open");
+      overlayLeft.classList.remove("open");
+    });
 
+    // ===== navbar nine sideMenu
+    let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
 
-        <script>
-        function onClickMenu(){
-            document.getElementById("menu").classList.toggle("change");
-            document.getElementById("nav").classList.toggle("change");
-            document.getElementById("menu-bg").classList.toggle("change-bg");
-        }
-        </script>
-    </body>
+    sideMenuLeftNine.addEventListener("click", function () {
+      sidebarLeft.classList.add("open");
+      overlayLeft.classList.add("open");
+    });
+
+    //========= glightbox
+    GLightbox({
+      'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoplayVideos': true,
+    });
+
+  </script>
+</body>
+
 </html>
